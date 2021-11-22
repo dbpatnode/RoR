@@ -29,3 +29,5 @@ General flow of Rails application:
     -> Model sends back information to controller
 
     -> Controller renders view
+
+to build a new rails app write ```rails new <app_name>```
