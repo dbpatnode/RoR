@@ -34,6 +34,7 @@ General flow of Rails application:
 
 BUILD A BASIC ASS SITE FLOW:
 
+
 to build a new rails app write ```rails new <app_name>```
 
 To set a root route, navigate to config/routes.rb file and enter in the following code ->
@@ -50,7 +51,7 @@ Back to the app, in order for the code to work there will need to be a pages con
 
 Create a pages controller by navigating to the terminal/command line and typing in the following command from your application directory:
 
-rails generate controller pages
+```rails generate controller pages```
 
 There should now be a pages_controller.rb file under app/controllers folder.
 
